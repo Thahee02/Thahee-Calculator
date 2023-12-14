@@ -10,6 +10,12 @@ function clearValue(){
 }
 
 function calculate(){
-    inputEl.value = eval(inputEl.value);
+    if(inputEl.value == ""){
+        inputEl.value = 0;
+    }
+    else{
+        inputEl.value = eval(inputEl.value);
+    }
+    
 
 }
