@@ -10,6 +10,6 @@ function clearValue(){
 }
 
 function calculate(){
-    inputEl.value = '=' + eval(inputEl.value);
+    inputEl.value = eval(inputEl.value);
 
 }
